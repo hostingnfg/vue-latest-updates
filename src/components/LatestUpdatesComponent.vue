@@ -39,7 +39,7 @@ export default {
     applyFilter() {
       this.filteredArticles = this.articles.filter(article =>
           (this.filter.news && article.category === 'news') ||
-                (this.filter.essays && article.category === 'essays')
+                (this.filter.essays && article.category === 'essay')
       );
     }
   }
