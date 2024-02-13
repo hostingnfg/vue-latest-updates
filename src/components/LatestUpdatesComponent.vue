@@ -46,9 +46,19 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .latest-updates {
   max-width: 500px;
   width: 100%;
+  margin: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+
+  h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
 }
 </style>

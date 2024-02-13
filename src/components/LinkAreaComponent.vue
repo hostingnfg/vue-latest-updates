@@ -18,10 +18,29 @@ export default {
 };
 </script>
 
-<style scoped>
-.article-link {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+<style scoped lang="scss">
+.link-area {
+  .article-link {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 10px 0;
+    border-bottom: 1px solid #eaecef;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    a {
+      color: #3490dc;
+      text-decoration: none;
+      font-size: 16px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
 </style>
+
