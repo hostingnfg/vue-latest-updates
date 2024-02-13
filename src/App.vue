@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <LatestUpdatesComponent />
+    <router-view />
   </div>
 </template>
 
@@ -14,13 +14,3 @@ export default {
   }
 };
 </script>
-
-<style>
-#app {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  flex-direction: column;
-}
-</style>
